@@ -29,7 +29,7 @@ python3 setup.py --tag <トラッキングID> --url https://<ユーザー名>.gi
 
 ## 5. Google Search Console に登録（10分）
 1. https://search.google.com/search-console でサイトURLを登録
-2. 所有権の確認方法は「HTMLタグ」を選び、表示された `<meta ...>` タグを Claude に渡してください（`static/` 経由で入れます）
+2. 所有権の確認方法は「HTMLファイル」を選び、ダウンロードした `google〇〇.html` を `static/` に置いて push（Claude に渡せば対応します）
 3. `sitemap.xml` を送信
 
 ## 6. その後のルーティン
