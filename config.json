@@ -1,9 +1,9 @@
 {
   "site_name": "デスク環境ラボ",
   "site_description": "在宅ワーク・デスク周りの道具を、失敗しない選び方の視点で比較・解説するサイト",
-  "base_url": "https://example.github.io/amazon-affiliate",
+  "base_url": "https://hangtaiyouban-tech.github.io/desk-lab",
   "author": "デスク環境ラボ編集部",
-  "amazon_tag": "YOURTAG-22",
+  "amazon_tag": "dente-22",
   "amazon_domain": "www.amazon.co.jp",
   "x_account": "",
   "lang": "ja"

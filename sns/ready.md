@@ -1,0 +1,23 @@
+# X 投稿キュー（1日1〜2本）
+
+- `https://hangtaiyouban-tech.github.io/desk-lab` は config.json の base_url に置き換えて投稿する
+- 記事リンク付きの投稿には必ず `#PR` を付ける（記事内にAmazonリンクがあるため）
+- Xのプロフィール欄に「Amazonのアソシエイトとして適格販売により収入を得ています」と書いておく
+- 反応（いいね・リポスト・クリック）が多かったテーマは docs/KEYWORDS.md の優先度を上げる
+
+| # | 本文 | リンク | 状態 |
+|---|---|---|---|
+| 1 | モニターアームを買う前に、メジャーで測るべきは4つだけ。①天板の厚み ②天板奥の幕板の有無 ③モニター背面のVESA穴 ④スタンドを外した重さ。これを測らずに買うと「付かない」が起きます。詳しい確認手順まとめました #PR | https://hangtaiyouban-tech.github.io/desk-lab/monitor-arm-desk-check.html | 未投稿 |
+| 2 | 在宅ワークで足元だけ寒い問題、部屋の暖房を上げるよりデスク下だけ暖めるほうが効率的。パネルで囲う／足を入れる／ひざ掛け、の3タイプの違いを整理しました #PR | https://hangtaiyouban-tech.github.io/desk-lab/home-office-cold-feet.html | 未投稿 |
+| 3 | USB-Cハブで「モニターに映らない」原因の多くはハブではなくPC側。USB-C端子が映像出力（DP Alt Mode）に対応してないと映りません。買う前にPCの仕様表を確認するのが先 #PR | https://hangtaiyouban-tech.github.io/desk-lab/usb-c-hub-choose.html | 未投稿 |
+| 4 | Web会議で顔が暗い人、まずは無料でできること3つ。①窓を背にしない ②画面の明るさを上げる ③机に白い紙を置く（レフ板代わり）。これでもダメならライトを1つ足すのが確実 #PR | https://hangtaiyouban-tech.github.io/desk-lab/web-meeting-face-dark.html | 未投稿 |
+| 5 | デスクの配線、床に電源タップがある限り片付きません。電源タップを天板の裏に浮かせるだけで、床に落ちるケーブルが1本になります。賃貸でも穴あけ不要でできる方法 #PR | https://hangtaiyouban-tech.github.io/desk-lab/desk-cable-management.html | 未投稿 |
+| 6 | ノートPCスタンドで画面を目線まで上げたら、外付けキーボードはほぼ必須。本体キーボードも一緒に高く急角度になって、今度は手首がつらくなるので #PR | https://hangtaiyouban-tech.github.io/desk-lab/laptop-stand-neck.html | 未投稿 |
+| 7 | モニターアームが勝手に下がってくる原因、耐荷重ギリギリのことが多いです。ガススプリング式は耐荷重の"真ん中"に収まるモデルを選ぶと安定します | （リンクなし・リプ欄に記事） | 未投稿 |
+| 8 | 4K対応のUSB-Cハブ、「4K/30Hz」と「4K/60Hz」は別物です。30Hzだとマウスやスクロールがカクついて見えます。4Kモニターで作業するなら60Hz表記を確認 | （リンクなし） | 未投稿 |
+| 9 | デスク下ヒーターを使うときの注意：パソコンと同じ電源タップにつながないこと。暖房器具は消費電力が大きいので、壁のコンセントに直接が基本です | （リンクなし） | 未投稿 |
+| 10 | 質問です。在宅ワークのデスク環境で、今いちばん困っていることは？ ①首・肩がつらい ②配線ごちゃごちゃ ③足元が寒い ④Web会議の映り | （アンケート） | 未投稿 |
+| 11 | 天板の奥にある「幕板」、知らない人が多いけどモニターアームのクランプが付かない原因の代表格です。机の裏を一度触ってみてください #PR | https://hangtaiyouban-tech.github.io/desk-lab/monitor-arm-desk-check.html | 未投稿 |
+| 12 | Web会議ライトは「明るさ調整」と「色温度調整」の2つがあるものを選ぶと失敗しにくいです。明るすぎると顔が白飛びするので #PR | https://hangtaiyouban-tech.github.io/desk-lab/web-meeting-face-dark.html | 未投稿 |
+| 13 | 配線整理で最初に買うならケーブルトレーか配線ボックス。結束バンドは面ファスナー式にしておくと、あとでケーブルを足すときラクです #PR | https://hangtaiyouban-tech.github.io/desk-lab/desk-cable-management.html | 未投稿 |
+| 14 | 冬のデスクワーク、足元ヒーター＋ひざ掛けの組み合わせが熱を逃がしにくくおすすめ。パネルヒーターでデスク下を囲って、上からひざ掛けをかけるとこたつ状態に #PR | https://hangtaiyouban-tech.github.io/desk-lab/home-office-cold-feet.html | 未投稿 |
