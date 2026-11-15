@@ -76,7 +76,7 @@ def inline(s: str) -> str:
     return re.sub(r"\[([^\]]+)\]\(([^)]+)\)", link, s)
 
 
-BLOCK_START = re.compile(r"^(#{2,4}\s|\||\s*[-*]\s|\s*\d+\.\s|>|\[\[)")
+BLOCK_START = re.compile(r"^(#{2,4}\s|\||\s*[-*]\s|\s*\d+\.\s|>|<|\[\[)")
 
 
 def md_to_html(md: str):
@@ -86,6 +86,8 @@ def md_to_html(md: str):
         ln = lines[i]
         if ln.startswith("[[") and ln.rstrip().endswith("]]"):
             out.append(shortcodes(ln.strip())); i += 1; continue
+        if ln.lstrip().startswith("<"):
+            out.append(ln.strip()); i += 1; continue
         m = re.match(r"^(#{2,4})\s+(.*)", ln)
         if m:
             lvl, txt = len(m.group(1)), m.group(2).strip()
@@ -197,11 +199,12 @@ def article_page(a, body_html, toc, related):
           "author": {"@type": "Organization", "name": CFG["author"]}}
     head = f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>'
     upd = f" ／ 更新 {a['updated']}" if a.get("updated") else ""
+    notice = a.get("notice") or "※この記事にはアフィリエイトリンク（広告）が含まれます。価格・在庫・仕様はリンク先のAmazonで最新情報をご確認ください。"
     body = f"""<article>
 <p class="crumb"><a href="index.html">ホーム</a> › {e(a.get('category', ''))}</p>
 <h1>{e(a['title'])}</h1>
 <p class="meta"><span class="pr">PR</span> 公開 {a['date']}{upd} ／ {e(CFG['author'])}</p>
-<p class="notice">※この記事にはアフィリエイトリンク（広告）が含まれます。価格・在庫・仕様はリンク先のAmazonで最新情報をご確認ください。</p>
+<p class="notice">{e(notice)}</p>
 {toc_html}
 {body_html}
 {rel_html}
